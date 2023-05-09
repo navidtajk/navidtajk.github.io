@@ -55,7 +55,7 @@ nav, article, aside, footer {
 
 nav {
   height: 50px;
-  background-color: #ff80ff;
+  /* background-color: #ff80ff; */
   display: flex;
   margin-bottom: 10px;
 }
@@ -93,19 +93,6 @@ input {
   font-size: 1.6rem;
   height: 32px;
 }
-
-input[type="search"] {
-  flex: 3;
-}
-
-input[type="submit"] {
-  flex: 1;
-  margin-left: 1rem;
-  background: #683939;
-  border: 0;
-  color: white;
-}
-
 /* || main layout */
 
 main {
@@ -114,16 +101,6 @@ main {
 
 article {
   flex: 4;
-}
-
-aside {
-  flex: 1;
-  margin-left: 10px;
-  background-color: #ff80ff;
-}
-
-aside li {
-  padding-bottom: 10px;
 }
 
 footer {
